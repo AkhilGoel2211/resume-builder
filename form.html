@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/form.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/milligram/1.4.1/milligram.css"
+    />
+    <title>Form</title>
+  </head>
+  <body>
+    <form>
+      <div class="name">
+        <div>
+          <label for="firstName">First Name</label>
+          <input id="firstName" type="text" />
+        </div>
+        <div class="last-name">
+          <label for="lastName">Last Name</label>
+          <input id="lastName" type="text" />
+        </div>
+      </div>
+      <div>
+        <label for="summary">Professional Summary</label>
+        <textarea id="summary" cols="30" rows="10"></textarea>
+      </div>
+      <div>
+        <label for="workHistory">Work History</label>
+        <div>
+          <label for="history1">Experience 1</label>
+          <input id="role1" type="text" placeholder="Role" />
+          <input
+            id="date1"
+            type="text"
+            placeholder="Begining - End/Current (MM/YYYY)"
+          />
+          <input id="location1" type="text" placeholder="Location" />
+          <textarea
+            id="description1"
+            cols="30"
+            rows="10"
+            placeholder="Description"
+          ></textarea>
+        </div>
+        <div>
+          <label for="history2">Experience 2</label>
+          <input id="role2" type="text" placeholder="Role" />
+          <input
+            id="date2"
+            type="text"
+            placeholder="Begining - End/Current (MM/YYYY)"
+          />
+          <input id="location2" type="text" placeholder="Location" />
+          <textarea
+            id="description2"
+            cols="30"
+            rows="10"
+            placeholder="Description"
+          ></textarea>
+        </div>
+        <div>
+          <label for="history3">Experience 3</label>
+          <input id="role3" type="text" placeholder="Role" />
+          <input
+            id="date3"
+            type="text"
+            placeholder="Begining - End/Current (MM/YYYY)"
+          />
+          <input id="location3" type="text" placeholder="Location" />
+          <textarea
+            id="description3"
+            cols="30"
+            rows="10"
+            placeholder="Description"
+          ></textarea>
+        </div>
+      </div>
+      <div>
+        <label for="adress">Location</label>
+        <input
+          id="adress"
+          type="text"
+          placeholder="Enter City, State & Pincode"
+        />
+      </div>
+      <div>
+        <label for="number">Telephone Number</label>
+        <input
+          id="number"
+          type="text"
+          maxlength="10"
+          placeholder="Enter 10 Digit Phone Number"
+        />
+        <div>
+          <label for="email">Email</label>
+          <input id="email" type="email" />
+        </div>
+      </div>
+      <div>
+        <label for="skills">Skills</label>
+        <textarea
+          id="skills"
+          cols="30"
+          rows="10"
+          placeholder="Enter each Skill on a new Line..."
+        ></textarea>
+      </div>
+      <div>
+        <label for="education">Education</label>
+        <input id="education--degree" type="text" placeholder="Degree" />
+        <input id="education--college" type="text" placeholder="College Name" />
+      </div>
+      <div>
+        <label for="affiliation">Affiliations</label>
+        <textarea
+          id="affiliation"
+          cols="30"
+          rows="10"
+          placeholder="Enter each Affiliation on a new Line..."
+        ></textarea>
+      </div>
+    </form>
+    <div class="templateGen">
+      <button id="item1">Template 1</button>
+      <button id="item2">Template 2</button>
+    </div>
+    <script src="/button-click.js"></script>
+  </body>
+</html>

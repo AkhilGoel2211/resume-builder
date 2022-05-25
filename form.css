@@ -1,0 +1,57 @@
+@import '/normalize.css';
+
+:root {
+    --color-primary: #fff;
+    --color-secondary: #637281;
+    --color-body: #000;   
+}
+
+*, 
+*::after, 
+*::before {
+    box-sizing: border-box;
+}
+
+/* Typography */
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Public Sans', sans-serif;
+    line-height: 1.5rem;
+    padding: 1rem;
+}
+
+label {
+    display: block;
+}
+
+form {
+    padding: 2rem;
+}
+
+textarea {
+    resize: vertical;
+}
+
+input[type="text"],
+input[type="email"] {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 0.5rem 0.7rem;
+    transition: border-color 0.15s, box-shadow 0.15s;
+}
+
+.name {
+    display: flex;
+}
+
+.last-name {
+    padding-left: 20px;
+}
+
+.templateGen {
+    padding: 2rem;
+}

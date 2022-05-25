@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/TemplateOne/template-one.css" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.3.4/jspdf.min.js"></script>
+    <title>Template One</title>
+  </head>
+  <body>
+    <div id="container">
+      <div class="left-half">
+        <div class="profile">
+          <h1 id="name">James Stele</h1>
+        </div>
+        <div class="professional-summary">
+          <h2>Professional Summary</h2>
+          <p id="summary">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi
+            suscipit ea eveniet necessitatibus nulla rerum ut nam odit. Dolore
+            architecto voluptas rem quas assumenda pariatur maxime non excepturi
+            ea fugit a consequatur ipsam voluptate quaerat ab mollitia ad, quasi
+            iure. Enim esse quas ipsa qui quasi? Deleniti aliquam aspernatur
+            saepe.
+          </p>
+        </div>
+        <div id="work-history">
+          <h2>Work History</h2>
+          <!-- <div>
+                    <h3 class="date" id="role1" >Application Engineer,</h3> <p class="date" id="date1" >Dates</p>
+                      <p id="location1" >Location</p>
+                      <ul class="work-history--list" id="description1" >
+                      <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iste molestias ducimus doloribus, et dicta minima maxime natus dolorum dignissimos quae!</li>
+                      <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iste molestias ducimus doloribus, et dicta minima maxime natus dolorum dignissimos quae!</li>
+                      <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iste molestias ducimus doloribus, et dicta minima maxime natus dolorum dignissimos quae!</li>
+                    </ol>
+                  </div>
+                  <div>
+                    <h3 class="date" id="role2" >Application Engineer,</h3> <p class="date" id="date1" >Dates</p>
+                      <p id="location1" >Location</p>
+                      <ul class="work-history--list" id="description1" >
+                      <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iste molestias ducimus doloribus, et dicta minima maxime natus dolorum dignissimos quae!</li>
+                      <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iste molestias ducimus doloribus, et dicta minima maxime natus dolorum dignissimos quae!</li>
+                      <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iste molestias ducimus doloribus, et dicta minima maxime natus dolorum dignissimos quae!</li>
+                    </ol>
+                  </div>
+                  <div>
+                    <h3 class="date" >Application Engineer,</h3> <p class="date" >Dates</p>
+                      <p>Location</p>
+                      <ul class="work-history--list">
+                      <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iste molestias ducimus doloribus, et dicta minima maxime natus dolorum dignissimos quae!</li>
+                      <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iste molestias ducimus doloribus, et dicta minima maxime natus dolorum dignissimos quae!</li>
+                      <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iste molestias ducimus doloribus, et dicta minima maxime natus dolorum dignissimos quae!</li>
+                    </ol>
+                  </div> -->
+        </div>
+      </div>
+      <div class="right-half">
+        <div class="address">
+          <div class="icon-container">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              fill="currentColor"
+              class="bi bi-geo-alt-fill icon"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"
+              />
+            </svg>
+          </div>
+          <h3 class="inline" id="adress">
+            <a href="#">&nbsp;&nbsp;Atlanta, GA 30301</a>
+          </h3>
+          <br />
+          <div class="icon-container">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              fill="currentColor"
+              class="bi bi-telephone-fill icon"
+              viewBox="0 0 16 16"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"
+              />
+            </svg>
+          </div>
+          <h3 class="inline" id="telephone">
+            <a href="#">&nbsp;&nbsp;(555) 555-5555</a>
+          </h3>
+          <br />
+          <div class="icon-container">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              fill="currentColor"
+              class="bi bi-envelope-fill icon"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555ZM0 4.697v7.104l5.803-3.558L0 4.697ZM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757Zm3.436-.586L16 11.801V4.697l-5.803 3.546Z"
+              />
+            </svg>
+          </div>
+          <h3 class="inline" id="email">
+            <a href="#">&nbsp;&nbsp;example@example.com</a>
+          </h3>
+        </div>
+        <h2>&nbsp;&nbsp;&nbsp;&nbsp;Skills</h2>
+        <div class="skills" id="skills">
+          <ul id="skillsUL"></ul>
+        </div>
+        <h2>&nbsp;&nbsp;&nbsp;&nbsp;Education</h2>
+        <div class="education">
+          <p class="degree" id="degree">Qualification</p>
+          <p id="university">University</p>
+        </div>
+        <h2>&nbsp;&nbsp;&nbsp;&nbsp;Affiliations</h2>
+        <div class="affiliation">
+          <ul id="affiliationUL"></ul>
+        </div>
+      </div>
+    </div>
+    <div id="pdf"></div>
+    <center>
+      <p><button id="generatePDF">generate PDF</button></p>
+    </center>
+    <script src="/set-data.js"></script>
+    <script src="/genPDF.js"></script>
+    <br />
+  </body>
+</html>
