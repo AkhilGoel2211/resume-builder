@@ -1,0 +1,30 @@
+@import 'normalize.css';
+
+*, 
+*::after, 
+*::before {
+    box-sizing: border-box;
+}
+
+/* Typography */
+
+
+html {
+    font-size: 62.5%;
+}
+
+img {
+    height: 297px;
+    width: 210px;
+}
+
+.box {
+    margin: auto;
+    margin-top: 20%;
+    text-align: center;
+}
+
+.btn {
+    margin: 5px;
+    font-size: 1.5rem;
+}
