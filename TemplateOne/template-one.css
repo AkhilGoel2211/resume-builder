@@ -21,7 +21,7 @@ html {
 body {
     background-color: #000;
     font-family: 'Public Sans', sans-serif;
-    font-size: 1.5rem;
+    font-size: 1.40rem;
     line-height: 1.25;
 }
 
@@ -61,6 +61,7 @@ h3 {
 
 li {
     list-style: square;
+    padding-right: 40px;
 }
 
 ul {
@@ -73,9 +74,11 @@ ul {
     border: 1px solid #000;
     display: grid;
     grid-template-columns: 65% 35%;
-    height: 1244px;
+    /* height: 1428px; */
+    height: 297mm;
     margin: auto;
-    max-width: 880px;
+    /* max-width: 1102px; */
+    max-width: 210mm;
 }
 
 /* Left-Half */
@@ -83,7 +86,7 @@ ul {
 .left-half {
     background-color: var(--color-primary);
     color: var(--color-secondary);
-    padding: 0 30px;
+    padding: 0px 40px;
 }
 
 .profile {
@@ -93,6 +96,7 @@ ul {
 
 .date {
     display: inline;
+    margin-top: 2px;
 }    
 
 .work-history--list {
@@ -173,15 +177,14 @@ ul {
     align-items: center;
 }
 
-#pdf {
-    padding: 10px;
-}
+/* Buttons */
 
 button {
     background: var(--color-primary);
     color: var(--color-secondary);
     border: 0;
     border-radius: 5px;
-    padding: 0.5rem 0.7rem;
+    padding: 1rem;
+    margin: 3rem;
     outline: 0;
 }
