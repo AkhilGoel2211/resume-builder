@@ -71,11 +71,10 @@ ul {
 /* Container */
 
 #container {
-    border: 1px solid #000;
     display: grid;
     grid-template-columns: 65% 35%;
     /* height: 1428px; */
-    height: 297mm;
+    height: 296.99mm;
     margin: auto;
     /* max-width: 1102px; */
     max-width: 210mm;
@@ -188,3 +187,9 @@ button {
     margin: 3rem;
     outline: 0;
 }
+
+/* @media print {
+    .noPrint {
+        display: none;
+    }
+} */
