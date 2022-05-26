@@ -5,4 +5,9 @@ This web-app will offer you two option templates for Resume Generation, and will
 
 To use it, head over to https://akhilgoel2211.github.io/resume-builder/  
 
+PS: While printing, use:  
+- Paper size: A4
+- Margins: none
+- Toggle ON Background Graphics
+
 Hope you like it.
