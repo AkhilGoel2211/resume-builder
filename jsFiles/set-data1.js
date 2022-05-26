@@ -2,7 +2,16 @@ let data = JSON.parse(localStorage.getItem('data'));
 console.log(data);
 
 document.getElementById("name").innerHTML = data.firstName + " " + data.lastName;
-document.getElementById("summary").innerHTML = data.summary;
+
+let summaryArray = (data.summary).split('\n');
+let summaryDiv = document.getElementById("summary");
+for (i in summaryArray) {
+    if (summaryArray[i] !== '') {
+        let summaryArrayP = document.createElement('p');
+        summaryArrayP.innerHTML = summaryArray[i];
+        summaryDiv.appendChild(summaryArrayP);
+    }
+}
 
 for (let key in data.workHistory) {
     let workDescription = data.workHistory[key]["description"].split("\n");
