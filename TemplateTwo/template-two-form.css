@@ -24,6 +24,12 @@ body {
     padding: 1rem;
 }
 
+h1 {
+    font-size: 5rem;
+    line-height: 6rem;
+    color: tomato;;
+}
+
 label {
     display: block;
 }
@@ -54,4 +60,10 @@ input[type="email"] {
 
 .templateGen {
     padding: 2rem;
+}
+
+.box {
+    margin: auto;
+    margin-top: 15%;
+    text-align: center;
 }

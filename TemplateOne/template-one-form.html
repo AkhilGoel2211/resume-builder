@@ -18,7 +18,7 @@
     <title>Form</title>
   </head>
   <body>
-    <form>
+    <form class="form">
       <div class="name">
         <div>
           <label for="firstName">First Name</label>
@@ -38,11 +38,20 @@
         <div>
           <label for="history1">Experience 1</label>
           <input id="role1" type="text" placeholder="Role" />
-          <input
-            id="date1"
-            type="text"
-            placeholder="Begining - End/Current (MM/YYYY)"
-          />
+          <div class="dates">
+            <input
+              class="start"
+              id="date1start"
+              type="text"
+              placeholder="Begining (MM/YYYY)"
+            />
+            <input
+              class="end"
+              id="date1end"
+              type="text"
+              placeholder="End/Current (MM/YYYY)"
+            />
+          </div>
           <input id="location1" type="text" placeholder="Location" />
           <textarea
             id="description1"
@@ -54,11 +63,20 @@
         <div>
           <label for="history2">Experience 2</label>
           <input id="role2" type="text" placeholder="Role" />
-          <input
-            id="date2"
-            type="text"
-            placeholder="Begining - End/Current (MM/YYYY)"
-          />
+          <div class="dates">
+            <input
+              class="start"
+              id="date2start"
+              type="text"
+              placeholder="Begining (MM/YYYY)"
+            />
+            <input
+              class="end"
+              id="date2end"
+              type="text"
+              placeholder="End/Current (MM/YYYY)"
+            />
+          </div>
           <input id="location2" type="text" placeholder="Location" />
           <textarea
             id="description2"
@@ -70,11 +88,20 @@
         <div>
           <label for="history3">Experience 3</label>
           <input id="role3" type="text" placeholder="Role" />
-          <input
-            id="date3"
-            type="text"
-            placeholder="Begining - End/Current (MM/YYYY)"
-          />
+          <div class="dates">
+            <input
+              class="start"
+              id="date3start"
+              type="text"
+              placeholder="Begining (MM/YYYY)"
+            />
+            <input
+              class="end"
+              id="date3end"
+              type="text"
+              placeholder="End/Current (MM/YYYY)"
+            />
+          </div>
           <input id="location3" type="text" placeholder="Location" />
           <textarea
             id="description3"
@@ -129,9 +156,11 @@
         ></textarea>
       </div>
     </form>
-    <div class="templateGen">
-      <button id="submit1">Submit</button>
-    </div>
+    <center>
+      <div>
+        <button class="templateGen" id="submit1">Submit</button>
+      </div>
+    </center>
     <script src="../jsFiles/submit-click.js"></script>
   </body>
 </html>

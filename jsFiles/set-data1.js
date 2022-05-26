@@ -11,9 +11,9 @@ for (let key in data.workHistory) {
         listString += `<li> ${workDescription[i]} </li>`;
     };
 
-    if (data.workHistory[key]["role"] !== ''){
+    if (data.workHistory[key]["role"] !== '' && data.workHistory[key]["date_start"] !== '' && data.workHistory[key]["date_end"] !== '' && data.workHistory[key]["location"] !== '' && data.workHistory[key]["description"] !== ''){
         let workDiv = document.createElement('div');
-        workDiv.innerHTML = `<h3 class="date" id="role" > ${data.workHistory[key]["role"]} ,</h3> <p class="date" id="date" > ${data.workHistory[key]["date"]}</p><p id="location" > ${data.workHistory[key]["location"]}</p><ul class="work-history--list" id="description">${listString}</ul>`;
+        workDiv.innerHTML = `<h3 class="date" id="role" > ${data.workHistory[key]["role"]} ,</h3> <p class="date" id="date" > ${data.workHistory[key]["date_start"]} - ${data.workHistory[key]["date_end"]}</p><p id="location" > ${data.workHistory[key]["location"]}</p><ul class="work-history--list" id="description">${listString}</ul>`;
         let workHistoryDiv = document.getElementById("work-history");workHistoryDiv.appendChild(workDiv);
     };
     

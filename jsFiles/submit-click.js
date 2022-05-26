@@ -12,19 +12,22 @@ const init = function(e) {
 			workHistory: {
 				history1: {
 					role: document.getElementById("role1").value,
-					date: document.getElementById("date1").value,
+					date_start: document.getElementById("date1start").value,
+					date_end: document.getElementById("date1end").value,
 					description: document.getElementById("description1").value,
 					location: document.getElementById("location1").value,
 				},
 				history2: {
 					role: document.getElementById("role2").value,
-					date: document.getElementById("date2").value,
+					date_start: document.getElementById("date2start").value,
+					date_end: document.getElementById("date2end").value,
 					description: document.getElementById("description2").value,
 					location: document.getElementById("location2").value,
 				},
 				history3: {
 					role: document.getElementById("role3").value,
-					date: document.getElementById("date3").value,
+					date_start: document.getElementById("date3start").value,
+					date_end: document.getElementById("date3end").value,
 					description: document.getElementById("description3").value,
 					location: document.getElementById("location3").value,
 				},

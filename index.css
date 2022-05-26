@@ -25,6 +25,8 @@ img {
 }
 
 .btn {
-    margin: 5px;
-    font-size: 1.5rem;
+    margin: 2rem 3rem;
+    font-size: 2rem;
+    padding: 10px 30px;
+    height: 6rem;
 }
