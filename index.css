@@ -1,32 +1,31 @@
-@import 'normalize.css';
+@import "normalize.css";
 
-*, 
-*::after, 
+*,
+*::after,
 *::before {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 /* Typography */
 
-
 html {
-    font-size: 62.5%;
+  font-size: 62.5%;
 }
 
 img {
-    height: 297px;
-    width: 210px;
+  height: 297px;
+  width: 210px;
 }
 
 .box {
-    margin: auto;
-    margin-top: 20%;
-    text-align: center;
+  margin: auto;
+  margin-top: 20%;
+  text-align: center;
 }
 
 .btn {
-    margin: 2rem 3rem;
-    font-size: 2rem;
-    padding: 10px 30px;
-    height: 6rem;
+  margin: 2rem 3rem;
+  font-size: 2rem;
+  padding: 10px 30px;
+  height: 6rem;
 }

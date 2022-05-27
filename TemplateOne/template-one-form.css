@@ -1,74 +1,74 @@
-@import '../normalize.css';
+@import "../normalize.css";
 
 :root {
-    --color-primary: #fff;
-    --color-secondary: #637281;
-    --color-body: #000;   
+  --color-primary: #fff;
+  --color-secondary: #637281;
+  --color-body: #000;
 }
 
-*, 
-*::after, 
+*,
+*::after,
 *::before {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 /* Typography */
 
 html {
-    font-size: 62.5%;
+  font-size: 62.5%;
 }
 
 body {
-    font-family: 'Public Sans', sans-serif;
-    line-height: 1.5rem;
-    padding: 1rem;
+  font-family: "Public Sans", sans-serif;
+  line-height: 1.5rem;
+  padding: 1rem;
 }
 
 label {
-    display: block;
+  display: block;
 }
 
 form {
-    padding: 2rem;
+  padding: 2rem;
 }
 
 textarea {
-    resize: vertical;
+  resize: vertical;
 }
 
 input[type="text"],
 input[type="email"] {
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    padding: 0.5rem 0.7rem;
-    transition: border-color 0.15s, box-shadow 0.15s;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 0.5rem 0.7rem;
+  transition: border-color 0.15s, box-shadow 0.15s;
 }
 
 .form {
-    margin: 0;
+  margin: 0;
 }
 
 .name {
-    display: flex;
+  display: flex;
 }
 
 .last-name {
-    padding-left: 2rem;
+  padding-left: 2rem;
 }
 
 .templateGen {
-    margin: 2rem 3rem;
-    font-size: 2rem;
-    padding: 0.5rem 3rem;
-    height: 5rem;
+  margin: 2rem 3rem;
+  font-size: 2rem;
+  padding: 0.5rem 3rem;
+  height: 5rem;
 }
 
 .dates {
-    display: flex;
-    width: 30%;
+  display: flex;
+  width: 30%;
 }
 
 .end {
-    padding-left: 2rem;
-    margin-left: 1rem;
+  padding-left: 2rem;
+  margin-left: 1rem;
 }
